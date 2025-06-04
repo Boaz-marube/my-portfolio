@@ -348,6 +348,7 @@ nav ul{
     display: flex;
     height: 600px;
     width: auto;
+    margin-bottom: 100px;
 }
 .contact-title{
     flex: 1;
@@ -369,7 +370,7 @@ nav ul{
     border-radius: 10px;
 }
 .contact-details{
-    height: 160px;
+    height: 180px;
     background-color: #81ADA8;
     margin: 10px;
     width: auto;
@@ -410,6 +411,9 @@ nav ul{
     border: none;
     
 }
+.name-textarea:active{
+    border: none;
+}
 .contact-email{
     flex: 1;
     background-color: #81ADA8;
@@ -424,7 +428,7 @@ nav ul{
    padding-left: 10px;
 }
 .contact-message{
-    height: 290px;
+    height: 250px;
     background-color: #81ADA8;
     margin: 10px;
     display: flex;
@@ -468,4 +472,42 @@ nav ul{
 .send-icon{
     padding-left: 3px;
     background-color: #28666E;
+}
+
+/*Footer*/
+.footer{
+    height: 100px;
+    
+}
+.social-links{
+    
+   display: flex;
+   justify-content: center;
+}
+.logos1:hover{
+    cursor: pointer;
+}
+.linked-in{
+    height: 40px;
+    width: 50px;
+    margin-left: 80px;
+}
+.github{
+    height: 40px;
+    width: 50px;
+}
+.gmail{
+    height: 40px;
+    width: 50px;
+    margin-left: 80px;
+}
+.phone{
+    height: 40px;
+    width: 50px;
+    margin-left: 80px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
