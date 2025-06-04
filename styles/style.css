@@ -210,11 +210,17 @@ nav ul{
 }
 
 /*Projects section*/
+.projects{
+    border-bottom: solid #000000;
+    border-width: 1px;
+}
 .project-container{
     display: flex;
     flex-direction: column;
     margin-top: 60px;
     margin-left: 140px; 
+    margin-bottom: 100px;
+    
 }
 .project-content1{
     padding-bottom: 20px;
@@ -259,4 +265,80 @@ nav ul{
     background-color: #DDFFF7;
     line-height: 30px;
     font-size: 25px;
+}
+
+/*AI Assistant Section*/
+.ai-assistant{
+    border-bottom: solid #000000;
+    border-width: 1px;
+}
+.assistant-container{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.assistant-header{
+    margin-left: 0px
+}
+.assistant-title{
+    font-size: 50px;
+    text-align: center;
+}
+.assistant-subtitle{
+    font-size: 24px;
+    text-align: center;
+}
+.assistant-body{
+    padding-left: 20px;
+    height: 510px;
+    width: 800px;
+    background-color: #A2999E;
+    padding-top: 20px;
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+.body-display{
+    height: 420px;
+    width: 760px;
+    background-color: #B9CBC9;
+    border-radius: 5px;
+
+}
+.body-textfield{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 50px;
+    background-color: #A2999E;
+
+    
+}
+.body-text{
+    width: 690px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #A2999E;
+}
+.body-text::placeholder{
+    font-size: 18px;
+    color: #000000;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.body-send{
+    border-radius: 100px;
+    padding-left: 15px;
+    background-color: #A2999E;
+    
+
+}
+.send-btn{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #A2999E;
+}
+.send-img{
+    background-color: #A2999E;
 }
