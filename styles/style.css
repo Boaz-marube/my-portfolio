@@ -342,3 +342,130 @@ nav ul{
 .send-img{
     background-color: #A2999E;
 }
+
+/*Contact Section*/
+.contact-container{
+    display: flex;
+    height: 600px;
+    width: auto;
+}
+.contact-title{
+    flex: 1;
+    font-size: 60px;
+    font-weight: 900;
+    padding-left: 25px;
+    padding-top: 25px;
+    line-height: 100px;
+}
+.project{
+    color: #28666E;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: #81ADA8;
+    margin: 30px;
+    border-radius: 10px;
+}
+.contact-details{
+    height: 160px;
+    background-color: #81ADA8;
+    margin: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.contact-name{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   font-size: 18px;
+   font-weight: 700;
+   margin-right: 40px;
+   padding-top: 15px;
+   border-radius: 10px;
+   background-color: #81ADA8;
+   padding-left: 10px;
+
+}
+.contact-name1, .contact-email1{
+    background-color: #81ADA8;
+}
+.contact-name1{
+    padding-left: 10px;
+}
+.contact-email1{
+    padding-left: 10px;
+}
+.name-textarea{
+    margin: 10px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-left: 5px;
+    border: none;
+    
+}
+.contact-email{
+    flex: 1;
+    background-color: #81ADA8;
+    display: flex;
+   flex-direction: column;
+   text-align: start;
+   font-size: 18px;
+   font-weight: 700;
+   margin-right: 40px;
+   padding-top: 15px;
+   border-radius: 10px;
+   padding-left: 10px;
+}
+.contact-message{
+    height: 290px;
+    background-color: #81ADA8;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.message-title{
+    background-color: #81ADA8;
+    margin-bottom: 10px;
+}
+.message-area{
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.contact-send{
+    height: 90px;
+    background-color: #81ADA8;
+    margin: 10px;
+
+}
+.send-message{
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: #28666E;
+    margin-left: 30px;
+}
+.send-icon{
+    padding-left: 3px;
+    background-color: #28666E;
+}
