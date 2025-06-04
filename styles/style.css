@@ -5,6 +5,30 @@
     font-family: 'Poppins',sans-serif;
     background-color: #93E1D8;
 }
+.istok-web-regular {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .istok-web-bold {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .istok-web-regular-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .istok-web-bold-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 body{
     height: 3000px;
 }
@@ -183,4 +207,56 @@ nav ul{
     height: 350px;
     border-radius: 200px;
 
+}
+
+/*Projects section*/
+.project-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 140px; 
+}
+.project-content1{
+    padding-bottom: 20px;
+}
+.project-title{
+    width: fit-content;
+    padding: 10px 50px 10px 10px;
+    background-color: #DDFFF7;
+    border-radius: 10px;
+
+
+}
+.title-project{
+    line-height: 70px;
+    font-size: 45px;
+    font-weight: 550;
+    background-color: #DDFFF7;
+}
+
+.project-content2{
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 450px 450px ;
+    height: 350px;
+}
+.content-project1{
+    flex: 1;
+    background-color: #DDFFF7;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 60px;
+    width: 480px;
+    border-radius: 10px;
+}
+.description-title{
+    font-size: 38px;
+    font-family: 'istok web';
+    background-color: #DDFFF7;
+
+}
+.project-description{
+    background-color: #DDFFF7;
+    line-height: 30px;
+    font-size: 25px;
 }
